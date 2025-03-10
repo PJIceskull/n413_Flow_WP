@@ -19,26 +19,6 @@
           "color": "#FA970A",
           "name": "Orange",
           "slug": "orange"
-        },
-        {
-          "color": "#2ECC71",
-          "name": "Green",
-          "slug": "green"
-        },
-        {
-          "color": "#FA1B0A",
-          "name": "Red",
-          "slug": "red"
-        },
-        {
-          "color": "#9B59B6",
-          "name": "Purple",
-          "slug": "purple"
-        },
-        {
-          "color": "#B5FA0A",
-          "name": "Limegreen",
-          "slug": "limegreen"
         }
       ]
     },

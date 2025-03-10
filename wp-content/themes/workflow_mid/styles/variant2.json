@@ -1,20 +1,20 @@
 {
   "schema": "https://schemas.wp.org/wp/6.7/theme.json",
   "version": 3,
-  "title": "Variant 1",
+  "title": "Variant 2",
   "settings": {
     "appearanceTools": true,
     "color": {
       "palette": [
         {
-          "color": "#2ECC71",
-          "name": "Green",
-          "slug": "green"
+          "color": "#9B59B6",
+          "name": "Purple",
+          "slug": "purple"
         },
         {
-          "color": "#FA1B0A",
-          "name": "Red",
-          "slug": "red"
+          "color": "#B5FA0A",
+          "name": "Limegreen",
+          "slug": "limegreen"
         }
       ]
     }
