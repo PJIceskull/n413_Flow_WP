@@ -11,10 +11,16 @@ Version: 0.1
   justify-content: space-evenly;
   background-color: #3498d8;
   min-height: 70px;
-  /* width: 1300px; */
+  width: 1300px;
 }
 .navLinks h1 {
   font-size: 20px;
+}
+
+.flexWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .wp-block-button__link {
@@ -25,6 +31,13 @@ Version: 0.1
 .orangeBTN .wp-element-button {
   background-color: #fa970a;
   font-weight: 200;
+}
+
+.featureTile {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 56px;
 }
 
 .nonFoundText {
