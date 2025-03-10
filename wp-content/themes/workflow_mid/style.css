@@ -17,12 +17,9 @@ Version: 0.1
   font-size: 20px;
 }
 
-.wp-block-button .wp-block-button__link {
-  transition-duration: 0.5ms;
+.wp-block-button__link {
 }
-
-.wp-block-button .wp-block-button__link:hover {
-  border-radius: 0px;
+.wp-block-button__link:hover {
 }
 
 .orangeBTN .wp-element-button {
@@ -33,4 +30,31 @@ Version: 0.1
 .nonFoundText {
   font-size: 24px;
   margin-top: 77px;
+}
+
+.blogPosts {
+}
+.blogPosts h2 {
+  margin-bottom: 20px;
+}
+.blogPosts p {
+  margin-bottom: 52px;
+}
+
+.postInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.authorText {
+  color: #fa970a;
+}
+.postDate {
+  margin-top: 0;
+}
+
+.heroImage {
+  height: 300px;
+  width: 1300px;
+  background-color: red;
 }

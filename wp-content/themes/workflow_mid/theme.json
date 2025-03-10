@@ -60,6 +60,16 @@
             "bottom": "0"
           }
         }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "32px"
+        },
+        "spacing": {
+          "margin": {
+            "top": "77px"
+          }
+        }
       }
     },
     "blocks": {
