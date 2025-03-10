@@ -1,0 +1,17 @@
+# Ignore everything on the root level
+/**.**
+# Except .gitignore & readme.md
+!.gitignore
+!readme.md
+!.readme.**
+!export
+
+# Ignore wp-admin and wp-includes
+/wp-admin
+/wp-includes
+
+# Ignore any up*folders in wp-content
+/wp-content/up**
+
+# Ignore TwentyTwenty Themes
+/wp-content/themes/twenty**

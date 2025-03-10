@@ -1,0 +1,26 @@
+/*
+Theme name: Workflow
+Author: Pierce Issah
+Description: Style theme for Week 8 midterm.
+Version: 0.1
+*/
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #3498d8;
+  min-height: 70px;
+  /* width: 1300px; */
+}
+.navLinks h1 {
+  font-size: 20px;
+}
+
+.wp-block-button .wp-block-button__link {
+  transition-duration: 0.5ms;
+}
+
+.wp-block-button .wp-block-button__link:hover {
+  border-radius: 0px;
+}
