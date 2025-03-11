@@ -7,6 +7,11 @@
 		"color": {
 			"palette": [
 				{
+					"color": "#E5ECF1",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
 					"color": "#2ECC71",
 					"name": "Green",
 					"slug": "green"
@@ -19,5 +24,13 @@
 			]
 		}
 	},
-	"styles": {}
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"color": {
+					"background": "var:preset|color|red"
+				}
+			}
+		}
+	}
 }
