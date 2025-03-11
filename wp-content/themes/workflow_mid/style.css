@@ -6,21 +6,21 @@ Version: 0.1
 */
 
 .navLinks {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: #3498d8;
-  min-height: 70px;
-  width: 1300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #3498d8;
+	min-height: 70px;
+	/* width: 1300px; */
 }
 .navLinks h1 {
-  font-size: 20px;
+	font-size: 20px;
 }
 
 .flexWrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 .wp-block-button__link {
@@ -29,44 +29,40 @@ Version: 0.1
 }
 
 .orangeBTN .wp-element-button {
-  background-color: #fa970a;
-  font-weight: 200;
-}
-
-.featureTile {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 56px;
+	background-color: #fa970a;
+	font-weight: 200;
 }
 
 .nonFoundText {
-  font-size: 24px;
-  margin-top: 77px;
+	font-size: 24px;
+	margin-top: 77px;
 }
 
 .blogPosts {
 }
 .blogPosts h2 {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .blogPosts p {
-  margin-bottom: 52px;
+	margin-bottom: 52px;
 }
 
 .postInfo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 .authorText {
-  color: #fa970a;
+	color: #fa970a;
 }
 .postDate {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 .heroImage {
-  height: 300px;
-  width: 1300px;
+	height: 300px;
+	/* width: 1300px; */
+}
+.heroImage img {
+	object-fit: cover;
 }
