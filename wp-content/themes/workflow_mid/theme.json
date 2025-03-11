@@ -36,9 +36,7 @@
 						{
 							"fontFamily": "Roboto",
 							"fontWeight": "200, 800",
-							"src": [
-								"file:./assets/fonts/Roboto-VariableFont_wdth,wght.ttf"
-							]
+							"src": ["file:./assets/fonts/Roboto-VariableFont_wdth,wght.ttf"]
 						}
 					]
 				}
@@ -72,17 +70,46 @@
 						"top": "77px"
 					}
 				}
+			},
+			"link": {
+				"typography": {
+					"textDecoration": "none"
+				},
+				"color": {
+					"text": "#000000"
+				}
 			}
 		},
 		"blocks": {
 			"core/buttons": {
 				"spacing": {
 					"margin": { "top": "0" }
+				},
+				"elements": {
+					"button": {
+						":hover": {
+							"border": {
+								"radius": "0px"
+							}
+						}
+					}
 				}
 			},
 			"core/button": {
 				"color": {
-					"background": "#000000"
+					"background": "var:preset|color|orange"
+				},
+				"typography": {
+					"fontWeight": "200"
+				},
+				"elements": {
+					"button": {
+						":hover": {
+							"border": {
+								"radius": "0px"
+							}
+						}
+					}
 				}
 			},
 			"core/navigation": {
@@ -93,8 +120,29 @@
 				}
 			},
 			"core/navigation-link": {
-				"css": "text-decoration: none; list-style: none;"
+				"css": "list-style: none;"
+			},
+			"core/search": {
+				"spacing": {
+					"margin": {
+						"top": "0"
+					}
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "#000000"
+						}
+					}
+				}
 			}
 		}
-	}
+	},
+	"customTemplates": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		}
+	]
 }

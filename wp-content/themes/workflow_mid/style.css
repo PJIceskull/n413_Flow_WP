@@ -12,9 +12,15 @@ Version: 0.1
 	background-color: #3498d8;
 	min-height: 70px;
 	/* width: 1300px; */
+	padding: 10px;
 }
 .navLinks h1 {
 	font-size: 20px;
+}
+
+.blackBTN .wp-element-button {
+	background-color: #000000;
+	font-weight: 400;
 }
 
 .flexWrap {
@@ -51,6 +57,10 @@ Version: 0.1
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	gap: 15px;
+}
+.postInfo p {
+	margin-bottom: 0;
 }
 .authorText {
 	color: #fa970a;
