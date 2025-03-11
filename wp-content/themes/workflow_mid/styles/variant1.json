@@ -1,23 +1,23 @@
 {
-  "schema": "https://schemas.wp.org/wp/6.7/theme.json",
-  "version": 3,
-  "title": "Variant 1",
-  "settings": {
-    "appearanceTools": true,
-    "color": {
-      "palette": [
-        {
-          "color": "#2ECC71",
-          "name": "Green",
-          "slug": "green"
-        },
-        {
-          "color": "#FA1B0A",
-          "name": "Red",
-          "slug": "red"
-        }
-      ]
-    }
-  },
-  "styles": {}
+	"schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Variant 1",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#2ECC71",
+					"name": "Green",
+					"slug": "green"
+				},
+				{
+					"color": "#FA1B0A",
+					"name": "Red",
+					"slug": "red"
+				}
+			]
+		}
+	},
+	"styles": {}
 }
