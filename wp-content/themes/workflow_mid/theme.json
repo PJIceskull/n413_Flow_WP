@@ -140,6 +140,18 @@
 	},
 	"customTemplates": [
 		{
+			"name": "home",
+			"title": "Blog Home",
+			"postTypes": ["page"]
+		},
+		{
+			"name": "front-page",
+			"title": "Front Page",
+			"postTypes": ["page", "post"]
+		}
+	],
+	"templateParts": [
+		{
 			"name": "header",
 			"title": "Header",
 			"area": "header"
