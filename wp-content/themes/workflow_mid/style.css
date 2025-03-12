@@ -5,6 +5,11 @@ Description: Style theme for Week 8 midterm.
 Version: 0.1
 */
 
+body {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
 .navLinks {
 	display: flex;
 	align-items: center;
