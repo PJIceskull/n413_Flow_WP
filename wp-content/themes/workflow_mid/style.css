@@ -2,7 +2,7 @@
 Theme name: Workflow
 Author: Pierce Issah
 Description: Style theme for Week 8 midterm.
-Version: 0.1
+Version: 1.0.0
 */
 
 body {
@@ -60,6 +60,7 @@ body {
 
 .postInfo {
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: flex-start;
 	gap: 15px;
